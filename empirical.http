@@ -1,0 +1,46 @@
+GET http://example.com/ HTTP/1.1
+Host: example.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:86.0) Gecko/20100101 Firefox/86.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+GET https://calendar.google.com/calendar/u/0/hello?cwuik=10 HTTP/1.1
+Host: calendar.google.com
+Connection: keep-alive
+X-Is-Xhr-Request: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36
+DNT: 1
+Accept: */*
+X-Client-Data: CJW2yQEIprbJAQjEtskBCKmdygEIm8LKAQj4x8oBCKTNygEI3NXKAQin/MoBCKicywEI1ZzLAQjknMsBCKmdywEY+bjKAQ==
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://calendar.google.com/calendar/u/0/r?tab=mc
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: SEARCH_SAMESITE=CgQIqZEB; OSID=6getBTp2WF6eZw6Ai3eW83sHhL8Y1wy83KX2vnHxDUR0cEB_95VdqO5AtGhhF6urWnGt3A.; __Secure-OSID=6getBTp2WF6eZw6Ai3eW83sHhL8Y1wy83KX2vnHxDUR0cEB_SLyBEznjGpipKXmnB95_hA.; SID=7AetBdLzU2OddR2-QsQVxI2CmhObsNd4f0s6GzslrWBPf7hHEuZE8yhkykWMeVEgri5VZA.; __Secure-3PSID=7AetBdLzU2OddR2-QsQVxI2CmhObsNd4f0s6GzslrWBPf7hHBPM-MQPOBbUb5ymmBDK0hg.; HSID=AOwWWxk51dpDqRkEo; SSID=ACAK-MYPRbEoQ9tIE; APISID=ImrsY-izX0ZVT4TF/AOUZYBVSsKZo4HBXH; SAPISID=cVAIJRPJZ2KV301G/Aewwm3bqf7jYTFfGk; __Secure-3PAPISID=cVAIJRPJZ2KV301G/Aewwm3bqf7jYTFfGk; NID=209=ocvrkcYWJ304LcoM8qqdKY1wNuY5nlngdeekoU432I5-HamM6iDAmzN9C5Zy-97mw3ytUy2hDYCf2pjmDZIjRXtwsZAOe7YHAijt1Xjo3X1MDfymQlg1mAzJylArwZgzsw1R1q6JJqgv6nTX8rnphTgYV9y7L5bWq_Ailo1nc0EbSPkvnXKdK39AvSIA-vBR7-lvn8bRI52RopFFvjOkNFprwh7KsjCdWpIHk0u90DpJHhTQB3ECVywPIvkNSy4YnX24jtw4hfGKLD0DyxE6-ktDyZmiSXBs4DK_44sPGMCWXwVJyY2uSIx0TW6NbfQfFMDu2zXLvBXi4fVzSTi0Dmze32hOFwvG; 1P_JAR=2021-02-19-14; COMPASS=calendar=Cp4BAAlriVftzo729MCl_Y03FJQ8UbxrXVFiikzdftGu1gM0Wqg2Tv4Q_Czdhh0JESY9nMyUA6RYFuUp9wysGhuB-0pRfmT-EZg3acCdA0jsA6k1AvtFPLfYjicEGlRfZdH1bs9Q_U79goSd75X3t28kfFJVyKGNFmxKu9dF4Z9asy9Vg-tIcuo3_RUj-ARfJ9nJxsUo2cDqRte3wYka3wkQ9Zi_gQYaqgEACWuJV5LiJtxAaPWVI65WeZGKE7wk5cxvH7BUMdiRy4tAQdOR1ctmWYJJyii3M6yRiBkgS4GiD3ERlF1-dSfO7LpnsWSZ8IfojDh4HDlbp6yFle2DXh_9W3WInQFxivIIRxgAlAt3JMTwUmGwGjO1aVN5xMiMxGCN3XAaPprtOfYo-CTrf726DL3TqR_gqrdASbvN_gBhpDVVbErKzlsPFKf6O6hxWEXYug; SIDCC=AJi4QfExzVCEzIFV6quPpl52xw88l1aaUO8FXidje2PbjYyf_KGuMxiz_UzylILMQJUfxR5zHuY; __Secure-3PSIDCC=AJi4QfFkT5GRKYOQQry8HmBhAzMmrIjNyzLyQwVKvsuDifsmSHKth6DV8S0Q8aEyfQuHEz5UR6f-
+
+POST https://play.google.com/log?format=json&hasfast=true&authuser=0 HTTP/1.1
+Host: play.google.com
+Connection: keep-alive
+Content-Length: 1570
+Authorization: SAPISIDHASH ea2d70493ea981e0f234f43e15850754af1f8f13
+DNT: 1
+X-Goog-AuthUser: 0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36
+Content-Type: application/x-www-form-urlencoded;charset=UTF-8
+Accept: */*
+Origin: https://docs.google.com
+X-Client-Data: CJW2yQEIprbJAQjEtskBCKmdygEIm8LKAQj4x8oBCKTNygEI3NXKAQin/MoBCKicywEI1ZzLAQjknMsBCKmdywEY+bjKAQ==
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://docs.google.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: SEARCH_SAMESITE=CgQIqZEB; SID=7AetBdLzU2OddR2-QsQVxI2CmhObsNd4f0s6GzslrWBPf7hHEuZE8yhkykWMeVEgri5VZA.; __Secure-3PSID=7AetBdLzU2OddR2-QsQVxI2CmhObsNd4f0s6GzslrWBPf7hHBPM-MQPOBbUb5ymmBDK0hg.; HSID=AOwWWxk51dpDqRkEo; SSID=ACAK-MYPRbEoQ9tIE; APISID=ImrsY-izX0ZVT4TF/AOUZYBVSsKZo4HBXH; SAPISID=cVAIJRPJZ2KV301G/Aewwm3bqf7jYTFfGk; __Secure-3PAPISID=cVAIJRPJZ2KV301G/Aewwm3bqf7jYTFfGk; NID=209=ocvrkcYWJ304LcoM8qqdKY1wNuY5nlngdeekoU432I5-HamM6iDAmzN9C5Zy-97mw3ytUy2hDYCf2pjmDZIjRXtwsZAOe7YHAijt1Xjo3X1MDfymQlg1mAzJylArwZgzsw1R1q6JJqgv6nTX8rnphTgYV9y7L5bWq_Ailo1nc0EbSPkvnXKdK39AvSIA-vBR7-lvn8bRI52RopFFvjOkNFprwh7KsjCdWpIHk0u90DpJHhTQB3ECVywPIvkNSy4YnX24jtw4hfGKLD0DyxE6-ktDyZmiSXBs4DK_44sPGMCWXwVJyY2uSIx0TW6NbfQfFMDu2zXLvBXi4fVzSTi0Dmze32hOFwvG; 1P_JAR=2021-02-19-14; SIDCC=AJi4QfGMYqbb7BPjisceaNw2xyCf4-s7SiY4KZzBy7fmT_Ge_fArH8KdLH68mJC-mYV_nIOVSQg; __Secure-3PSIDCC=AJi4QfF3KCoVRv5vUXlgMlwju6ti05YxzCOGtew7NznwSKfHxllznNE1IRBiRmOmGLHQWv-CYO4Q
+
+[[1,null,null,null,null,null,null,null,null,null,[null,null,null,null,"en"]],407,[["1613743832332",null,[],null,null,null,null,"[25,1613743832332000,\"!8_Cl8LzNAAV3gfYgd0LwXnYFU94RWTsAKQAjCPxGBUO-qw4WerKFz4QpqFbfh31uFv1D0_kK__jjOI56fySBqCUgAgAAALhSAAAAHGgBB5kDUnOZZ-qNKh1lKpOqqFykGEMCVOcv1iHw6HO5ApE-z8NMDEyYpl1q2lhRl3dpU6-HH3wc3aiQQ1jqM2VoUJmKunzazEPGQdgsIGF5tx1AxE0Fmbu-L3geMCM67fFRuMNKPkU90GfoKqaR7N_R91TRwQelYXzakKRbg9fcVIs5n0K_kR8JzBDnJ9AL5Mt-yXykxCufM2nnEKXFjCU8C6LW62WRVVkN2C19to_GBppG-iD_g1D-yfv7JjrcYcebdzrpeerinWxr9LYCLJRwtqopF35vcJ5dCJMX71GyRLVNGc0nkHlkmL9L1hJNKIigAFqTa8-Yk5ZorU19WMa17IVlx-SuwQ5opQVqukP43j2Hnww5Eu29bfDmGjzysD1V8ArdYhW6lqFmnixqvQKY9FJH65Cvf03AP0J1bXBCRMv4oSuYBqRtG9RpzPYYkqwHlHfKQKo9JDnc-Yj-iQNKDM0GD3_whSTvYPqCdzLokJU6hb7ErXOuj9Ttq6IW57AlF20AlxIHs2vXIp1GvepP1ZC_I4A-Gz5jFVa7z61mo_3KNvSzAK7GAm5iHzinkV8_dqLZx6cjIQ8Ru8PSIlDtuB2_eYQ5xA4IiJUfOUPQpaWoKgbOSggIZOBmEdA3K-S0AXN2IPSIEebIOxo4tZyybYq-GXVtWKh0giMLfKncN0s2Ioc5kuiPR-GfSFYzf8-SBzTJaxHKJUa61kWIWZOCDmj6RWXvklB1rVp4bmoAt6QNl48dN9fU6TAE1jRos2jbadoRt8Owib3O8O9baq38RQYqUoOSr91ttID8Fkzgcm5XWULg4_NrvCbKydohBLINmE5sV22dt7RTxu9fNQL4D0CS7eubFdpBISWDV8wTxOFffB8y7vzQBcgkKonY2PlO0EQSAKs731qL6poxxg0g9ATpCGksASYKWDX-c9KCtHYw4A6uN_Ff6nUDevB2EyIXZG11bqUNccZKFC1lwlaiwtnDd5AAqDEjLCHTrPURucRxOtGv2rJyorAJENtlecUJCH8N2L1A7P7H35UzbXNKnnbh09LRgFTtUCOMnt5vP_YdSdejcVl7u8cxn2ql8PuIBxbq2gqZjFp1yBpZppXxCaTKuVEQoLLPWpHjDoD-940kQPH-_x8\",1700284300,true]",null,null,null,null,null,null,18000,null,null,null,null,[],203,null,null,null,null,null,[]]],"1613743832332",[],null,null,null,null,null,null,null,null,0]
